@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/titleLabel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9c60da"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="444dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="140dp"
+            android:text="Restaurants near me:"
+            android:textColor="#FDFCFC"
+            android:textSize="12pt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="436dp"
+            android:layout_height="131dp"
+            android:layout_marginBottom="676dp"
+            android:background="#008080"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            android:text="Restaurant Review"
+            android:textColor="#FAFAFA"
+            android:textSize="12pt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/line" />
+
+        <ScrollView
+            android:layout_width="409dp"
+            android:layout_height="249dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="189dp"
+            android:background="#cccccc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pizza Hut Fabian Way (0.2 miles)"
+                    android:textColor="#000000"
+                    android:textSize="12pt" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Swansea Chicken's (0.35miles)"
+                    android:textColor="#000000"
+                    android:textSize="12pt" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tiffany's Cafe (0.37miles)"
+                    android:textColor="#000000"
+                    android:textSize="12pt" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JK Sweets and Treats (0.4miles)"
+                    android:textColor="#000000"
+                    android:textSize="12pt" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Favorites-Chicken (0.5miles)"
+                    android:textColor="#000000"
+                    android:textSize="12pt" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Memo Cafe (0.61miles)"
+                    android:textColor="#000000"
+                    android:textSize="12pt" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="M squared (0.67miles)"
+                    android:textColor="#000000"
+                    android:textSize="12pt" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GDK Swansea (0.9miles)"
+                    android:textColor="#000000"
+                    android:textSize="12pt" />
+            </LinearLayout>
+
+        </ScrollView>
+
+        <GridLayout
+            android:layout_width="401dp"
+            android:layout_height="284dp"
+
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="464dp"
+            android:columnCount="2"
+            android:rowCount="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="200dp"
+                android:layout_height="142dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:backgroundTint="#cccccc"
+                android:text="Create a Review"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="200dp"
+                android:layout_height="142dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:backgroundTint="#cccccc"
+                android:text="Settings"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="200dp"
+                android:layout_height="142dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:backgroundTint="#cccccc"
+                android:text="Find a Restaurant"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="200dp"
+                android:layout_height="142dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:backgroundTint="#cccccc"
+                android:text="Make an Account"
+                android:textColor="#000000" />
+
+        </GridLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="123dp"
+            android:layout_height="133dp"
+            android:layout_marginStart="296dp"
+            android:layout_marginBottom="672dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/log" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
