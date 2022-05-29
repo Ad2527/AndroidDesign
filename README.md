@@ -1,2 +1,2 @@
 # AndroidDesign
-Initial XML Designs for Restaurant Review Application
+Project Containing Initial XML Designs for Restaurant Review Application
