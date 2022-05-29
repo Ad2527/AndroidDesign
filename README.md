@@ -1,2 +1,2 @@
 # AndroidDesign
-Restaurant Review Application built with Kotlin in Android Studio
+Initial XML Designs for Restaurant Review Application
